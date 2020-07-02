@@ -1,2 +1,2 @@
 # WebService
-Web Service whit Spring-boot and cxf
+Web Service with Spring-boot and cxf
