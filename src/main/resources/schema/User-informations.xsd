@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://webserviceteste.com.br"
+           xmlns:tns="http://webserviceteste.com.br"
+           elementFormDefault="qualified">
+    <xs:element name="UserDetailRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:integer"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="UserDetailResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="UserDetail" type="tns:UserDetail"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="UserDetail">
+        <xs:sequence>
+            <xs:element name="id" type="xs:integer"></xs:element>
+            <xs:element name="name" type="xs:string"></xs:element>
+            <xs:element name="phone" type="xs:string"></xs:element>
+            <xs:element name="email" type="xs:string"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

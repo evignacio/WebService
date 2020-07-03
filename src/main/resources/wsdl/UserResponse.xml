@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserDetailResponse
+        xmlns="http://webserviceteste.com.br"
+        xsi:schemaLocation="http://webserviceteste.com.br ../schema/User-informations.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <UserDetail>
+        <id>1</id>
+        <name>Evandro</name>
+        <phone>14998125061</phone>
+        <email>evandro@hotmail.com</email>
+    </UserDetail>
+</UserDetailResponse>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserDetailRequest
+        xmlns="http://webserviceteste.com.br"
+        xsi:schemaLocation="http://webserviceteste.com.br ../schema/User-informations.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>1</id>
+</UserDetailRequest>
