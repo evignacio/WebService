@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://webserviceteste.com.br"
-           xmlns:tns="http://webserviceteste.com.br"
+           xmlns="http://com/exemple/webservice/userservice"
+           xmlns:user="http://webservices.demo.blog.com"
+           targetNamespace="http://com/exemple/webservice/userservice"
            elementFormDefault="qualified">
     <xs:element name="UserDetailRequest">
         <xs:complexType>
@@ -14,12 +15,12 @@
     <xs:element name="UserDetailResponse">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="UserDetail" type="tns:UserDetail"></xs:element>
+                <xs:element name="UserDetail" type="User"></xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
 
-    <xs:complexType name="UserDetail">
+    <xs:complexType name="User">
         <xs:sequence>
             <xs:element name="id" type="xs:integer"></xs:element>
             <xs:element name="name" type="xs:string"></xs:element>
