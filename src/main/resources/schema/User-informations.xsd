@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns="http://com/exemple/webservice/userservice"
+           xmlns="webserviceresources/user"
            xmlns:user="http://webservices.demo.blog.com"
-           targetNamespace="http://com/exemple/webservice/userservice"
+           targetNamespace="webserviceresources/user"
            elementFormDefault="qualified">
     <xs:element name="UserDetailRequest">
         <xs:complexType>

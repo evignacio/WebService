@@ -1,5 +1,5 @@
 
-package com.exemple.webservice.userservice;
+package webserviceresources.user;
 
 import java.math.BigInteger;
 import javax.xml.bind.annotation.XmlAccessType;

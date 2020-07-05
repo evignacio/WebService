@@ -1,7 +1,6 @@
 
-package com.exemple.webservice.userservice;
+package webserviceresources.user;
 
-import java.math.BigInteger;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -19,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
- *         &lt;element name="id" type="{http://www.w3.org/2001/XMLSchema}integer"/&gt;
+ *         &lt;element name="UserDetail" type="{webserviceresources/user}User"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -30,36 +29,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "id"
+    "userDetail"
 })
-@XmlRootElement(name = "UserDetailRequest")
-public class UserDetailRequest {
+@XmlRootElement(name = "UserDetailResponse")
+public class UserDetailResponse {
 
-    @XmlElement(required = true)
-    protected BigInteger id;
+    @XmlElement(name = "UserDetail", required = true)
+    protected User userDetail;
 
     /**
-     * Obtém o valor da propriedade id.
+     * Obtém o valor da propriedade userDetail.
      * 
      * @return
      *     possible object is
-     *     {@link BigInteger }
+     *     {@link User }
      *     
      */
-    public BigInteger getId() {
-        return id;
+    public User getUserDetail() {
+        return userDetail;
     }
 
     /**
-     * Define o valor da propriedade id.
+     * Define o valor da propriedade userDetail.
      * 
      * @param value
      *     allowed object is
-     *     {@link BigInteger }
+     *     {@link User }
      *     
      */
-    public void setId(BigInteger value) {
-        this.id = value;
+    public void setUserDetail(User value) {
+        this.userDetail = value;
     }
 
 }
