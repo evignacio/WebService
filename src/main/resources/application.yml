@@ -1,0 +1,6 @@
+
+server:
+  port: 8200
+
+cxf:
+  path: /web-soap
