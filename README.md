@@ -1,5 +1,5 @@
 # Web-Service :coffee:
-
+Esse repositório contém um web service SOAP feito com ***Spring-boot*** e ***CXF***
 
 ## Dependências
 - [Maven](https://maven.apache.org/download.cgi)
