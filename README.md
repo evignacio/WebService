@@ -2,8 +2,8 @@
 
 
 ## Dependências
-[Maven](https://maven.apache.org/download.cgi)
-[Java 8+](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html)
+- [Maven](https://maven.apache.org/download.cgi)
+- [Java 8+](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html)
 
 ## Como iniciar a aplicação
 * Dentro da pasta do projeto utilize o comando ``mvn clean install``para buildar a aplicação
